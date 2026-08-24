@@ -1,6 +1,9 @@
+<img width="1888" height="687" alt="image" src="https://github.com/user-attachments/assets/ffa38d62-d14b-49e1-bf41-d3899380c2e1" />
+
+
 # 🧟 Zombie Survival DAG — README
 **Apache Airflow Assignment**
-**Author:** Arpita Jain
+**Author:** Chetan Jain
 **File:** `zombie_survival_dag.py`
 
 ---
