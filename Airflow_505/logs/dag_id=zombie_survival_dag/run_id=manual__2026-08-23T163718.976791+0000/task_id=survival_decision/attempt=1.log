@@ -1,0 +1,19 @@
+[2026-08-23T16:37:26.450+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-23T16:37:26.518+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: zombie_survival_dag.survival_decision manual__2026-08-23T16:37:18.976791+00:00 [queued]>
+[2026-08-23T16:37:26.534+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: zombie_survival_dag.survival_decision manual__2026-08-23T16:37:18.976791+00:00 [queued]>
+[2026-08-23T16:37:26.538+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-08-23T16:37:26.565+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): survival_decision> on 2026-08-23 16:37:18.976791+00:00
+[2026-08-23T16:37:26.581+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=225) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-08-23T16:37:26.579+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'zombie_survival_dag', 'survival_decision', 'manual__2026-08-23T16:37:18.976791+00:00', '--job-id', '188', '--raw', '--subdir', 'DAGS_FOLDER/assignment_dag.py', '--cfg-path', '/tmp/tmpgzkeqxco']
+[2026-08-23T16:37:26.587+0000] {standard_task_runner.py:64} INFO - Started process 226 to run task
+[2026-08-23T16:37:26.592+0000] {standard_task_runner.py:91} INFO - Job 188: Subtask survival_decision
+[2026-08-23T16:37:26.701+0000] {task_command.py:426} INFO - Running <TaskInstance: zombie_survival_dag.survival_decision manual__2026-08-23T16:37:18.976791+00:00 [running]> on host e029bb475f22
+[2026-08-23T16:37:26.875+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='bunker_ops' AIRFLOW_CTX_DAG_ID='zombie_survival_dag' AIRFLOW_CTX_TASK_ID='survival_decision' AIRFLOW_CTX_EXECUTION_DATE='2026-08-23T16:37:18.976791+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-23T16:37:18.976791+00:00'
+[2026-08-23T16:37:26.881+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-23T16:37:26.943+0000] {assignment_dag.py:84} CRITICAL - FINAL DECISION: DEFEND. High threat detected.
+[2026-08-23T16:37:26.946+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-08-23T16:37:26.948+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-23T16:37:26.963+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=zombie_survival_dag, task_id=survival_decision, run_id=manual__2026-08-23T16:37:18.976791+00:00, execution_date=20260823T163718, start_date=20260823T163726, end_date=20260823T163726
+[2026-08-23T16:37:27.053+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-08-23T16:37:27.094+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-08-23T16:37:27.102+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,7 @@
+[2026-08-16T00:09:36.035+0000] {processor.py:161} INFO - Started process (PID=3578) to work on /opt/airflow/dags/test_dag_3.py
+[2026-08-16T00:09:36.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag_3.py for tasks to queue
+[2026-08-16T00:09:36.070+0000] {logging_mixin.py:188} INFO - [2026-08-16T00:09:36.066+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag_3.py
+[2026-08-16T00:09:36.193+0000] {processor.py:840} INFO - DAG(s) 'Our_first_DAG_1' retrieved from /opt/airflow/dags/test_dag_3.py
+[2026-08-16T00:09:36.299+0000] {logging_mixin.py:188} INFO - [2026-08-16T00:09:36.298+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-16T00:09:36.361+0000] {logging_mixin.py:188} INFO - [2026-08-16T00:09:36.360+0000] {dag.py:3947} INFO - Setting next_dagrun for Our_first_DAG_1 to 2026-08-16 00:00:00+00:00, run_after=2026-08-17 00:00:00+00:00
+[2026-08-16T00:09:36.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag_3.py took 0.422 seconds

@@ -1,0 +1,19 @@
+[2026-08-14T09:36:28.865+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-14T09:36:28.960+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Our_first_DAG_1.sixth_task manual__2026-08-14T09:36:20.840030+00:00 [queued]>
+[2026-08-14T09:36:28.993+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Our_first_DAG_1.sixth_task manual__2026-08-14T09:36:20.840030+00:00 [queued]>
+[2026-08-14T09:36:28.997+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-08-14T09:36:29.048+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): sixth_task> on 2026-08-14 09:36:20.840030+00:00
+[2026-08-14T09:36:29.069+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=2273) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-08-14T09:36:29.065+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Our_first_DAG_1', 'sixth_task', 'manual__2026-08-14T09:36:20.840030+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_3.py', '--cfg-path', '/tmp/tmpx8p7kxof']
+[2026-08-14T09:36:29.074+0000] {standard_task_runner.py:64} INFO - Started process 2274 to run task
+[2026-08-14T09:36:29.075+0000] {standard_task_runner.py:91} INFO - Job 46: Subtask sixth_task
+[2026-08-14T09:36:29.187+0000] {task_command.py:426} INFO - Running <TaskInstance: Our_first_DAG_1.sixth_task manual__2026-08-14T09:36:20.840030+00:00 [running]> on host e029bb475f22
+[2026-08-14T09:36:29.429+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Prasun' AIRFLOW_CTX_DAG_ID='Our_first_DAG_1' AIRFLOW_CTX_TASK_ID='sixth_task' AIRFLOW_CTX_EXECUTION_DATE='2026-08-14T09:36:20.840030+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-14T09:36:20.840030+00:00'
+[2026-08-14T09:36:29.434+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-14T09:36:29.468+0000] {logging_mixin.py:188} INFO - Hello my name is : Chetan Jain
+[2026-08-14T09:36:29.471+0000] {python.py:237} INFO - Done. Returned value was: Chetan Jain
+[2026-08-14T09:36:29.474+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-14T09:36:29.561+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Our_first_DAG_1, task_id=sixth_task, run_id=manual__2026-08-14T09:36:20.840030+00:00, execution_date=20260814T093620, start_date=20260814T093628, end_date=20260814T093629
+[2026-08-14T09:36:29.617+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-08-14T09:36:29.661+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-08-14T09:36:29.668+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

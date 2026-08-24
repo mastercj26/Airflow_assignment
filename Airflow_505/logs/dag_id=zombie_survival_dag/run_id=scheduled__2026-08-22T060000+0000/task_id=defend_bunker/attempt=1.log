@@ -1,0 +1,24 @@
+[2026-08-23T16:37:05.017+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-23T16:37:05.118+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: zombie_survival_dag.defend_bunker scheduled__2026-08-22T06:00:00+00:00 [queued]>
+[2026-08-23T16:37:05.146+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: zombie_survival_dag.defend_bunker scheduled__2026-08-22T06:00:00+00:00 [queued]>
+[2026-08-23T16:37:05.151+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-08-23T16:37:05.176+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): defend_bunker> on 2026-08-22 06:00:00+00:00
+[2026-08-23T16:37:05.191+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=189) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-08-23T16:37:05.190+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'zombie_survival_dag', 'defend_bunker', 'scheduled__2026-08-22T06:00:00+00:00', '--job-id', '179', '--raw', '--subdir', 'DAGS_FOLDER/assignment_dag.py', '--cfg-path', '/tmp/tmpen1c953c']
+[2026-08-23T16:37:05.196+0000] {standard_task_runner.py:64} INFO - Started process 190 to run task
+[2026-08-23T16:37:05.198+0000] {standard_task_runner.py:91} INFO - Job 179: Subtask defend_bunker
+[2026-08-23T16:37:05.289+0000] {task_command.py:426} INFO - Running <TaskInstance: zombie_survival_dag.defend_bunker scheduled__2026-08-22T06:00:00+00:00 [running]> on host e029bb475f22
+[2026-08-23T16:37:05.402+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='bunker_ops' AIRFLOW_CTX_DAG_ID='zombie_survival_dag' AIRFLOW_CTX_TASK_ID='defend_bunker' AIRFLOW_CTX_EXECUTION_DATE='2026-08-22T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-22T06:00:00+00:00'
+[2026-08-23T16:37:05.405+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-23T16:37:05.425+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-08-23T16:37:05.428+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "[DEFENSE] Threat detected near bunker." && echo "[DEFENSE] Reinforcing barricades." && echo "[DEFENSE] Defense team moving to perimeter."']
+[2026-08-23T16:37:05.444+0000] {subprocess.py:86} INFO - Output:
+[2026-08-23T16:37:05.446+0000] {subprocess.py:93} INFO - [DEFENSE] Threat detected near bunker.
+[2026-08-23T16:37:05.448+0000] {subprocess.py:93} INFO - [DEFENSE] Reinforcing barricades.
+[2026-08-23T16:37:05.450+0000] {subprocess.py:93} INFO - [DEFENSE] Defense team moving to perimeter.
+[2026-08-23T16:37:05.452+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-08-23T16:37:05.454+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-23T16:37:05.486+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=zombie_survival_dag, task_id=defend_bunker, run_id=scheduled__2026-08-22T06:00:00+00:00, execution_date=20260822T060000, start_date=20260823T163705, end_date=20260823T163705
+[2026-08-23T16:37:05.536+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-08-23T16:37:05.579+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-08-23T16:37:05.584+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

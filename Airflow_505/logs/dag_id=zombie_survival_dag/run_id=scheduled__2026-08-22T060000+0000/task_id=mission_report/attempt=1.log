@@ -1,0 +1,26 @@
+[2026-08-23T16:37:08.701+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-23T16:37:08.751+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: zombie_survival_dag.mission_report scheduled__2026-08-22T06:00:00+00:00 [queued]>
+[2026-08-23T16:37:08.771+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: zombie_survival_dag.mission_report scheduled__2026-08-22T06:00:00+00:00 [queued]>
+[2026-08-23T16:37:08.775+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-08-23T16:37:08.801+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): mission_report> on 2026-08-22 06:00:00+00:00
+[2026-08-23T16:37:08.812+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'zombie_survival_dag', 'mission_report', 'scheduled__2026-08-22T06:00:00+00:00', '--job-id', '182', '--raw', '--subdir', 'DAGS_FOLDER/assignment_dag.py', '--cfg-path', '/tmp/tmp0o3lgtlx']
+[2026-08-23T16:37:08.816+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=211) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-08-23T16:37:08.821+0000] {standard_task_runner.py:91} INFO - Job 182: Subtask mission_report
+[2026-08-23T16:37:08.824+0000] {standard_task_runner.py:64} INFO - Started process 212 to run task
+[2026-08-23T16:37:08.902+0000] {task_command.py:426} INFO - Running <TaskInstance: zombie_survival_dag.mission_report scheduled__2026-08-22T06:00:00+00:00 [running]> on host e029bb475f22
+[2026-08-23T16:37:09.012+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='bunker_ops' AIRFLOW_CTX_DAG_ID='zombie_survival_dag' AIRFLOW_CTX_TASK_ID='mission_report' AIRFLOW_CTX_EXECUTION_DATE='2026-08-22T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-22T06:00:00+00:00'
+[2026-08-23T16:37:09.016+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-23T16:37:09.037+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-08-23T16:37:09.040+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "[REPORT] Zombie survival routine completed." && echo "[REPORT] Perimeter inspection completed." && echo "[REPORT] Survivor headcount completed." && echo "[REPORT] Supply assessment completed." && echo "[REPORT] Final survival decision completed."']
+[2026-08-23T16:37:09.054+0000] {subprocess.py:86} INFO - Output:
+[2026-08-23T16:37:09.057+0000] {subprocess.py:93} INFO - [REPORT] Zombie survival routine completed.
+[2026-08-23T16:37:09.060+0000] {subprocess.py:93} INFO - [REPORT] Perimeter inspection completed.
+[2026-08-23T16:37:09.062+0000] {subprocess.py:93} INFO - [REPORT] Survivor headcount completed.
+[2026-08-23T16:37:09.064+0000] {subprocess.py:93} INFO - [REPORT] Supply assessment completed.
+[2026-08-23T16:37:09.066+0000] {subprocess.py:93} INFO - [REPORT] Final survival decision completed.
+[2026-08-23T16:37:09.069+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-08-23T16:37:09.071+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-23T16:37:09.107+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=zombie_survival_dag, task_id=mission_report, run_id=scheduled__2026-08-22T06:00:00+00:00, execution_date=20260822T060000, start_date=20260823T163708, end_date=20260823T163709
+[2026-08-23T16:37:09.164+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-08-23T16:37:09.186+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-08-23T16:37:09.191+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

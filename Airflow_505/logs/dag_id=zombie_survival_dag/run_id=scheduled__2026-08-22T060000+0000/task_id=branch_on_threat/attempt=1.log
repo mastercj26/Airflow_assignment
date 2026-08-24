@@ -1,0 +1,22 @@
+[2026-08-23T16:37:02.518+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-23T16:37:02.592+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: zombie_survival_dag.branch_on_threat scheduled__2026-08-22T06:00:00+00:00 [queued]>
+[2026-08-23T16:37:02.620+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: zombie_survival_dag.branch_on_threat scheduled__2026-08-22T06:00:00+00:00 [queued]>
+[2026-08-23T16:37:02.624+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-08-23T16:37:02.656+0000] {taskinstance.py:2330} INFO - Executing <Task(BranchPythonOperator): branch_on_threat> on 2026-08-22 06:00:00+00:00
+[2026-08-23T16:37:02.672+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=187) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-08-23T16:37:02.670+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'zombie_survival_dag', 'branch_on_threat', 'scheduled__2026-08-22T06:00:00+00:00', '--job-id', '178', '--raw', '--subdir', 'DAGS_FOLDER/assignment_dag.py', '--cfg-path', '/tmp/tmple660m8r']
+[2026-08-23T16:37:02.677+0000] {standard_task_runner.py:64} INFO - Started process 188 to run task
+[2026-08-23T16:37:02.679+0000] {standard_task_runner.py:91} INFO - Job 178: Subtask branch_on_threat
+[2026-08-23T16:37:02.798+0000] {task_command.py:426} INFO - Running <TaskInstance: zombie_survival_dag.branch_on_threat scheduled__2026-08-22T06:00:00+00:00 [running]> on host e029bb475f22
+[2026-08-23T16:37:02.989+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='bunker_ops' AIRFLOW_CTX_DAG_ID='zombie_survival_dag' AIRFLOW_CTX_TASK_ID='branch_on_threat' AIRFLOW_CTX_EXECUTION_DATE='2026-08-22T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-22T06:00:00+00:00'
+[2026-08-23T16:37:02.993+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-23T16:37:03.016+0000] {baseoperator.py:400} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2026-08-23T16:37:03.037+0000] {python.py:237} INFO - Done. Returned value was: defend_bunker
+[2026-08-23T16:37:03.040+0000] {branch.py:36} INFO - Branch into defend_bunker
+[2026-08-23T16:37:03.043+0000] {skipmixin.py:178} INFO - Following branch defend_bunker
+[2026-08-23T16:37:03.078+0000] {skipmixin.py:246} INFO - Skipping tasks [('all_clear_log', -1)]
+[2026-08-23T16:37:03.123+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-23T16:37:03.165+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=zombie_survival_dag, task_id=branch_on_threat, run_id=scheduled__2026-08-22T06:00:00+00:00, execution_date=20260822T060000, start_date=20260823T163702, end_date=20260823T163703
+[2026-08-23T16:37:03.223+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-08-23T16:37:03.290+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-08-23T16:37:03.320+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
