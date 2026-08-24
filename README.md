@@ -101,4 +101,4 @@ The response contains a `dag_run_id` and `state: "queued"`, confirming the run w
 
 ---
 
-*Survive the night. Automate the apocalypse.*
+
