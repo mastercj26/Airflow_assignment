@@ -75,3 +75,164 @@
 [2026-08-24T03:01:58.311+0000] {logging_mixin.py:188} INFO - [2026-08-24T03:01:58.310+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2026-08-24T03:01:58.340+0000] {logging_mixin.py:188} INFO - [2026-08-24T03:01:58.340+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
 [2026-08-24T03:01:58.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.197 seconds
+[2026-08-24T04:39:37.423+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:39:37.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:39:37.429+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:39:37.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:39:37.477+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:39:37.510+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:39:37.510+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:39:37.535+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:39:37.535+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:39:37.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.146 seconds
+[2026-08-24T04:40:08.090+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:40:08.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:40:08.096+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:40:08.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:40:08.140+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:40:08.246+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:40:08.245+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:40:08.264+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:40:08.263+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:40:08.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.199 seconds
+[2026-08-24T04:40:38.811+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:40:38.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:40:38.816+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:40:38.816+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:40:38.862+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:40:38.892+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:40:38.892+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:40:38.912+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:40:38.912+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:40:38.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.127 seconds
+[2026-08-24T04:41:09.462+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:41:09.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:41:09.468+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:41:09.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:41:09.510+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:41:09.535+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:41:09.535+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:41:09.557+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:41:09.557+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:41:09.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.121 seconds
+[2026-08-24T04:41:40.161+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:41:40.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:41:40.170+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:41:40.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:41:40.213+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:41:40.238+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:41:40.238+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:41:40.259+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:41:40.259+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:41:40.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.123 seconds
+[2026-08-24T04:42:10.908+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:42:10.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:42:10.915+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:42:10.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:42:10.959+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:42:10.988+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:42:10.988+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:42:11.006+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:42:11.006+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:42:11.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.123 seconds
+[2026-08-24T04:42:41.559+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:42:41.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:42:41.564+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:42:41.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:42:41.617+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:42:41.644+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:42:41.644+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:42:41.665+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:42:41.665+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:42:41.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.134 seconds
+[2026-08-24T04:43:12.241+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:43:12.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:43:12.246+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:43:12.245+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:43:12.293+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:43:12.320+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:43:12.320+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:43:12.342+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:43:12.342+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:43:12.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.126 seconds
+[2026-08-24T04:43:43.037+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:43:43.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:43:43.045+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:43:43.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:43:43.091+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:43:43.129+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:43:43.129+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:43:43.154+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:43:43.154+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:43:43.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.153 seconds
+[2026-08-24T04:44:13.913+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:44:13.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:44:13.919+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:44:13.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:44:13.957+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:44:13.982+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:44:13.982+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:44:14.000+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:44:14.000+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:44:14.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.113 seconds
+[2026-08-24T04:44:44.942+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:44:44.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:44:44.953+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:44:44.952+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:44:45.002+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:44:45.042+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:44:45.042+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:44:45.061+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:44:45.060+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:44:45.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.142 seconds
+[2026-08-24T04:45:15.748+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:45:15.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:45:15.752+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:45:15.752+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:45:15.789+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:45:15.812+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:45:15.812+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:45:15.831+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:45:15.831+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:45:15.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.110 seconds
+[2026-08-24T04:45:46.509+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:45:46.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:45:46.514+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:45:46.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:45:46.556+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:45:46.582+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:45:46.582+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:45:46.604+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:45:46.604+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:45:46.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.127 seconds
+[2026-08-24T04:46:17.241+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:46:17.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:46:17.249+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:46:17.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:46:17.295+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:46:17.320+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:46:17.320+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:46:17.342+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:46:17.342+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:46:17.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.131 seconds
+[2026-08-24T04:46:48.135+0000] {processor.py:161} INFO - Started process (PID=378) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:46:48.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:46:48.140+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:46:48.140+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:46:48.183+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:46:48.210+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:46:48.209+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:46:48.228+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:46:48.228+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:46:48.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.123 seconds
+[2026-08-24T04:47:18.961+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:47:18.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:47:18.967+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:47:18.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:47:19.010+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:47:19.042+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:47:19.041+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:47:19.069+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:47:19.069+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:47:19.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.146 seconds
+[2026-08-24T04:47:49.819+0000] {processor.py:161} INFO - Started process (PID=408) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:47:49.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:47:49.829+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:47:49.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:47:49.886+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:47:49.911+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:47:49.911+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:47:49.931+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:47:49.930+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:47:49.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.139 seconds
+[2026-08-24T04:48:20.640+0000] {processor.py:161} INFO - Started process (PID=423) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:48:20.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:48:20.649+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:48:20.649+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:48:20.699+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:48:20.727+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:48:20.727+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:48:20.747+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:48:20.747+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:48:20.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.133 seconds
+[2026-08-24T04:48:50.881+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:48:50.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:48:50.889+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:48:50.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:48:50.951+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:48:50.977+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:48:50.977+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:48:50.995+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:48:50.995+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:48:51.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.140 seconds
+[2026-08-24T04:49:21.855+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:49:21.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:49:21.859+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:49:21.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:49:21.904+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:49:21.930+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:49:21.930+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:49:21.955+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:49:21.955+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:49:21.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.135 seconds
+[2026-08-24T04:49:53.009+0000] {processor.py:161} INFO - Started process (PID=468) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:49:53.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:49:53.015+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:49:53.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:49:53.073+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:49:53.126+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:49:53.125+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:49:53.162+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:49:53.162+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:49:53.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.190 seconds
+[2026-08-24T04:50:23.923+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:50:23.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:50:23.929+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:50:23.929+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:50:23.973+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:50:23.999+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:50:23.999+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:50:24.020+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:50:24.020+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:50:24.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.126 seconds
+[2026-08-24T04:50:54.544+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:50:54.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/assignment_dag.py for tasks to queue
+[2026-08-24T04:50:54.549+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:50:54.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:50:54.580+0000] {processor.py:840} INFO - DAG(s) 'zombie_survival_dag' retrieved from /opt/airflow/dags/assignment_dag.py
+[2026-08-24T04:50:54.605+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:50:54.604+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-08-24T04:50:54.622+0000] {logging_mixin.py:188} INFO - [2026-08-24T04:50:54.622+0000] {dag.py:3947} INFO - Setting next_dagrun for zombie_survival_dag to 2026-08-23 06:00:00+00:00, run_after=2026-08-24 06:00:00+00:00
+[2026-08-24T04:50:54.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/assignment_dag.py took 0.104 seconds
